@@ -1,6 +1,6 @@
 <template>
   <div class="topnav">
-    <span><h2>Board</h2></span>
+    <span><h1>Board</h1></span>
     <input type="text" placeholder="Search.." />
   </div>
 </template>
@@ -11,24 +11,24 @@ export default {
 };
 </script>
 <style scoped lang="postcss">
-h2 {
-  font-style: italic;
-}
-
+ @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 .topnav {
   @apply bg-gray-200;
   overflow: hidden;
   background-color: #3ccabc;
 }
 
-/* Style the links inside the navigation bar */
-.topnav h2 {
+
+.topnav h1 {
+  font-style: italic;
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration:none;
+  font-size: 20px;
+  font-family: 'Fruktur', cursive;
 }
 
 /* Style the search box inside the navigation bar */
