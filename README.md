@@ -20,4 +20,5 @@ npm run build
 ```
 npm run lint
 ```
+## [Live demo](https://vue-js-drag-drop-todo.netlify.app/)
 
